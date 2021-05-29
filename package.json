@@ -5,9 +5,25 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./src/server.js",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src --fix"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wissenchaften/bookshelf-api.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wissenchaften/bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/wissenchaften/bookshelf-api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.3",
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3"
+  }
 }
